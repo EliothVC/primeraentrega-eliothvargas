@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Shortcut Icon" href="./assets/img/general/escudo.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Inicio - Municipalidad de Castro</title>
+</head>
+<body class="bg-gray-50">
+    <!-- encabezado superior -->
+    <div class="bg-blue-800 text-white py-2 hidden md:block">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
+                <div class="flex space-x-4">
+                    <div class="flex items-center">
+                        <span class="text-sm">+56 (65) 253 8000</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-sm">rrpp@municipalidadcastro.cl</span>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/IlustreMunicipalidaddeCastro/" class="hover:text-blue-200 transition duration-300">
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/ilustremunicipalidaddecastro/" class="hover:text-blue-200 transition duration-300">
+                        Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--encabezado principal -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="./index.html">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center mr-3">
+                            <img src="./assets/img/general/escudo.png" alt="logo" class="w-10 h-10 object-contain">
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold text-gray-800">Municipalidad de</h1>
+                            <h2 class="text-xl font-bold text-red-500">Castro</h2>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Menú escritorio -->
+                <nav class="hidden md:flex space-x-6">
+                        <a href="./index.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Inicio</a>
+                        <a href="./nosotros.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Nosotros</a>
+                        <a href="./historia.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Historia</a>
+                        <a href="./noticias.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Blog</a>
+                        <a href="./transparencia.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Transparencia</a>
+                        <a href="./contacto.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Contacto</a>
+                </nav>
+
+                <!-- Botón Hamburguesa -->
+                <button id="menu-toggle" class="md:hidden text-gray-700 focus:outline-none">
+                    Menú
+                </button>
+            </div>
+            
+            <!-- Menú Móvil -->
+            <nav id="mobile-menu" class="mobile-menu hidden md:hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="./index.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Inicio</a>
+                    <a href="./nosotros.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Nosotros</a>
+                    <a href="./historia.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Historia</a>
+                    <a href="./noticias.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Blog</a>
+                    <a href="./transparencia.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Transparencia</a>
+                    <a href="./contacto.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!--sección hero-->
+    <section id="Inicio" class="relative bg-gray-800">
+        <div class="absolute inset-0 z-10 flex items-center justify-center">
+            <div class="text-center max-w-3xl text-white px-4">
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 rounded-lg bg-violet-600">Bienvenido a Castro</h2>
+                <p class="text-lg sm:text-xl md:text-2xl mb-8 rounded-lg bg-amber-400">Descubre la belleza y cultura de nuestra comuna</p>
+                <a href="#Historia" class="bg-red-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-flex items-center mx-auto">
+                    Conoce nuestra Historia
+                </a>
+            </div>
+        </div>
+        <div class="h-64 sm:h-64 md:h-96 bg-gray-600">
+            <img src="./assets/img/general/Castro.png" alt="Castro Chiloé" class="w-full h-full object-cover">
+        </div>
+    </section>
+
+    <!--Sección de acceso rápido-->
+    <section class="py-12 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Accesos Rápidos</h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <a href="./nosotros.html" class="a-rapidos">
+                    <div class="w-16 h-16 rounded-full bg-red-500 bg-opacity-10 text-white flex items-center justify-center mb-4">
+                        1
+                    </div>
+                    <span class="font-medium text-gray-700">Nosotros</span>
+                </a>
+                <a href="./noticias.html" class="a-rapidos">
+                    <div class="w-16 h-16 rounded-full bg-red-500 bg-opacity-10 text-white flex items-center justify-center mb-4">
+                        2
+                    </div>
+                    <span class="font-medium text-gray-700">Noticias</span>
+                </a>
+                <a href="./transparencia.html" class="a-rapidos">
+                    <div class="w-16 h-16 rounded-full bg-red-500 bg-opacity-10 text-white flex items-center justify-center mb-4">
+                        3
+                    </div>
+                    <span class="font-medium text-gray-700">Ley de Transparencia</span>
+                </a>
+                <a href="./historia.html" class="a-rapidos">
+                    <div class="w-16 h-16 rounded-full bg-red-500 bg-opacity-10 text-white flex items-center justify-center mb-4">
+                        4
+                    </div>
+                    <span class="font-medium text-gray-700">Historia</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Noticias Destacadas -->
+    <section id="Noticias" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-2">Noticias Destacadas</h2>
+            <p class="text-center text-gray-600 mb-12">Mantente informado sobre lo que sucede en nuestra comuna</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg transform hover:-translate-y-1.5">
+                    <img src="./assets/img/articles/Noticia1.jpeg" alt="noticia1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-red-500 font-semibold">23 De Septiembre, 2025</span>
+                        <h3 class="text-xl font-bold text-gray-800 mt-2 mb-3">Castro conmemora 182 años de la gesta de la Goleta Ancud con acto cultural y llamado a la memoria histórica</h3>
+                        <p class="text-gray-600">La comuna de Castro celebró con un emotivo acto el 182 aniversario de la toma y posesión del Estrecho de Magallanes por parte de la Goleta Ancud...</p>
+                        <a href="./blog/noticia1.html" class="inline-block mt-4 text-red-500 font-medium hover:underline">Leer Más</a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg transform hover:-translate-y-1.5">
+                    <img src="./assets/img/articles/Noticia2.jpeg" alt="noticia2" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-red-500 font-semibold">17 De Septiembre, 2025</span>
+                        <h3 class="text-xl font-bold text-gray-800 mt-2 mb-3">Con gran éxito finalizó el Taller de Cueca</h3>
+                        <p class="text-gray-600">El Departamento de Cultura de la Ilustre Municipalidad de Castro dio término esta semana al taller de Cueca...</p>
+                        <a href="./blog/noticia2.html" class="inline-block mt-4 text-red-500 font-medium hover:underline">Leer Más</a>
+                    </div>
+                </div>
+
+                <div class="bg-gray-100 rounded-lg overflow-hidden shadow-md transition duration-300 hover:shadow-lg transform hover:-translate-y-1.5">
+                    <img src="./assets/img/articles/Noticia3.jpg" alt="noticia3" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <span class="text-sm text-red-500 font-semibold">09 De Septiembre, 2025</span>
+                        <h3 class="text-xl font-bold text-gray-800 mt-2 mb-3">Se viene la gran Fiesta de la Chilenidad en Castro</h3>
+                        <p class="text-gray-600">Municipio castreño invita a celebrar los días 18 y 19 de septiembre en el Parque Municipal...</p>
+                        <a href="./blog/noticia3.html" class="inline-block mt-4 text-red-500 font-medium hover:underline">Leer Más</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="text-center mt-12">
+                <a href="./noticias.html" class="bg-red-500 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300
+                inline-flex items-center justify-center mx-auto">
+                    Más Noticias
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!--Historia Section-->
+    <section id="Historia" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <div class="lg:w-1/2">
+                    <img src="./assets/img/general/Iglesia.jpg" alt="Castro" class="rounded-lg shadow-md w-full">
+                </div>
+
+                <div class="lg:w-1/2">
+                    <h2 class="text-3xl font-bold text-gray-800 mb-6">Nuestra Historia</h2>
+                    <p class="text-gray-600 mb-6">Castro, fundada en 1567, es la tercera ciudad más antigua de Chile que aún se mantiene en pie. Su nombre honra al gobernador español Martín Ruiz de Gamboa, quien la bautizó en honor al santuario de Castro en Galicia, España.</p>
+                    <p class="text-gray-600 mb-6">La comuna se caracteriza por sus tradicionales palafitos, construcciones sobre pilotes en el agua que son emblemáticas de Chiloé. Declarados Monumento Nacional, estas coloridas viviendas reflejan la adaptación de los chilotes al entorno acuático.</p>
+                    <p class="text-gray-600 mb-6">La iglesia de San Francisco, declarada Patrimonio de la Humanidad por la UNESCO, es uno de los símbolos más reconocibles de Castro y un excelente ejemplo de la arquitectura religiosa tradicional de Chiloé...</p>
+
+                    <a href="./historia.html" class="inline-block bg-red-500 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300">Leer más sobre nuestra Historia</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Transparencia Section -->
+    <section id="Transparencia" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Ley de Transparencia</h2>
+                <p class="text-xl text-gray-600 max-w-3xl mx-auto">Conoce cómo garantizamos el acceso a la información pública y fomentamos la probidad en nuestra gestión municipal</p>
+            </div>
+
+            <div class="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+                <!-- Información a la izquierda -->
+                <div class="lg:w-1/2 w-full">
+                    <div class="bg-gray-100 rounded-lg shadow-md p-6 md:p-8">
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Transparencia Activa</h3>
+                        <p class="text-gray-600 mb-4">De acuerdo con la Ley N° 20.285 sobre Transparencia de la Función Pública y de Acceso a la Información de la Administración del Estado, nuestra municipalidad pone a disposición de la ciudadanía información relevante sobre:</p>
+                        
+                        <ul class="list-disc list-inside text-gray-600 mb-6 space-y-2">
+                            <li>Organización y dotación de personal</li>
+                            <li>Presupuesto y ejecución financiera</li>
+                            <li>Actas de sesiones del Concejo Municipal</li>
+                            <li>Planes, programas y proyectos</li>
+                            <li>Contratos y licitaciones</li>
+                            <li>Permisos y concesiones</li>
+                            <li>Información sobre remuneraciones</li>
+                        </ul>
+                        
+                        <h3 class="text-2xl font-bold text-gray-800 mb-4">Derecho de Acceso a la Información</h3>
+                        <p class="text-gray-600 mb-4">Todas las personas tienen derecho a solicitar y recibir información completa, oportuna y veraz de los actos de la administración municipal, con las excepciones que establece la ley.</p>
+                        
+                        <p class="text-gray-600 mb-6">Puede ejercer este derecho presentando una solicitud a través de nuestro portal de transparencia o directamente en nuestras oficinas.</p>
+                        
+                        <div class="flex flex-col sm:flex-row gap-4">
+                            <a href="https://transparencia.municastro.cl/" class="bg-red-500 hover:bg-red-600 text-white font-bold py-3 px-6 rounded-lg transition duration-300 text-center">
+                                Portal de Transparencia
+                            </a>
+                            <a href="./transparencia.html" class="bg-gray-800 hover:bg-gray-900 text-white font-bold py-3 px-6 rounded-lg transition duration-300 text-center">
+                                Solicitar Información
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Imagen/Infografía a la derecha -->
+                <div class="lg:w-1/2 w-full">
+                    <div class="bg-red-500 rounded-lg shadow-md p-6 md:p-8 text-white">
+                        <h3 class="text-2xl font-bold mb-6 text-center">¿Cómo acceder a la información?</h3>
+                        
+                        <div class="space-y-6">
+                            <div class="flex items-start">
+                                <div class="bg-white text-red-500 rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <span class="font-bold">1</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-2">Consulta nuestro portal</h4>
+                                    <p class="text-white text-opacity-90">Revisa la información disponible en nuestra sección de transparencia activa</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-white text-red-500 rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <span class="font-bold">2</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-2">Solicita información</h4>
+                                    <p class="text-white text-opacity-90">Si no encuentras lo que buscas, presenta una solicitud formal de información</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-white text-red-500 rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <span class="font-bold">3</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-2">Recibe respuesta</h4>
+                                    <p class="text-white text-opacity-90">Obtendrás una respuesta dentro de los plazos establecidos por la ley</p>
+                                </div>
+                            </div>
+                            
+                            <div class="flex items-start">
+                                <div class="bg-white text-red-500 rounded-full w-10 h-10 flex items-center justify-center mr-4 flex-shrink-0">
+                                    <span class="font-bold">4</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-lg mb-2">Apelación</h4>
+                                    <p class="text-white text-opacity-90">Si no estás conforme con la respuesta, puedes presentar un reclamo</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-8 p-4 rounded-lg">
+                            <p class="text-center font-bold">Plazo máximo de respuesta: 20 días hábiles</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contacto-->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Contacto</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto">Si tienes alguna pregunta, comentario o necesitas información sobre nuestros servicios, no dudes en ponerte en contacto con nosotros.</p>
+
+            <div class="text-center mt-12">
+                <a href="./contacto.html" class="bg-red-500 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300
+                inline-flex items-center justify-center mx-auto">
+                    Más Información
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <a href="./index.html"><img src="./assets/img/general/Blanco.png" alt="logoBlanco" class="h-16 mb-4"></a>
+                    <p class="mb-4">Trabajando por el desarrollo y bienestar de nuestra comunidad.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/IlustreMunicipalidaddeCastro/" class="hover:text-blue-200 transition duration-300">
+                            Facebook
+                        </a>
+                        <a href="https://www.instagram.com/ilustremunicipalidaddecastro/" class="hover:text-blue-200 transition duration-300">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-8">Enlaces Rapidos</h3>
+                    <ul class="space-y-3">
+                        <li><a href="./index.html" class="text-gray-300 hover:text-white transition duration-300">Inicio</a></li>
+                        <li><a href="./nosotros.html" class="text-gray-300 hover:text-white transition duration-300">Nosotros</a></li>
+                        <li><a href="./historia.html" class="text-gray-300 hover:text-white transition duration-300">Historia</a></li>
+                        <li><a href="./noticias.html" class="text-gray-300 hover:text-white transition duration-300">Blog de Noticias</a></li>
+                        <li><a href="./transparencia.html" class="text-gray-300 hover:text-white transition duration-300">Transparencia</a></li>
+                        <li><a href="./contacto.html" class="text-gray-300 hover:text-white transition duration-300">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Contacto</h3>
+                    <ul class="space-y-3 text-white">
+                        <li class="flex items-start"><span>Plaza de Armas S/N, Castro, Chiloé</span></li>
+                        <li class="flex items-start"><span>+56 (65) 253 8000</span></li>
+                        <li class="flex items-start"><span>rrpp@municipalidadcastro.cl</span></li>
+                        <li class="flex items-start"><span>Lunes a Viernes: 8:30 - 14:00 hrs</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white mt-12 pt-6 text-center text-white">
+                <p>&copy; 2025 Municipalidad de Castro - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

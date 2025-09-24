@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Shortcut Icon" href="./assets/img/general/escudo.ico">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Transparencia - Municipalidad de Castro</title>
+</head>
+<body>
+    <!-- encabezado superior -->
+    <div class="bg-blue-800 text-white py-2 hidden md:block">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
+                <div class="flex space-x-4">
+                    <div class="flex items-center">
+                        <span class="text-sm">+56 (65) 253 8000</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-sm">rrpp@municipalidadcastro.cl</span>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/IlustreMunicipalidaddeCastro/" class="hover:text-blue-200 transition duration-300">
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/ilustremunicipalidaddecastro/" class="hover:text-blue-200 transition duration-300">
+                        Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--encabezado principal -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="./index.html">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center mr-3">
+                            <img src="./assets/img/general/escudo.png" alt="logo" class="w-10 h-10 object-contain">
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold text-gray-800">Municipalidad de</h1>
+                            <h2 class="text-xl font-bold text-red-500">Castro</h2>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Menú escritorio -->
+                <nav class="hidden md:flex space-x-6">
+                        <a href="./index.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Inicio</a>
+                        <a href="./nosotros.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Nosotros</a>
+                        <a href="./historia.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Historia</a>
+                        <a href="./noticias.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Blog</a>
+                        <a href="./transparencia.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Transparencia</a>
+                        <a href="./contacto.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Contacto</a>
+                </nav>
+
+                <!-- Botón Hamburguesa -->
+                <button id="menu-toggle" class="md:hidden text-gray-700 focus:outline-none">
+                    Menú
+                </button>
+            </div>
+            
+            <!-- Menú Móvil -->
+            <nav id="mobile-menu" class="mobile-menu hidden md:hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="./index.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Inicio</a>
+                    <a href="./nosotros.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Nosotros</a>
+                    <a href="./historia.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Historia</a>
+                    <a href="./noticias.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Blog</a>
+                    <a href="./transparencia.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Transparencia</a>
+                    <a href="./contacto.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- breadcrumb -->
+    <div class="bg-gray-100 py-3">
+        <div class="container mx-auto px-4">
+            <nav class="flex" aria-label="breadcrumb">
+                <ol class="inline-flex items-center space-x-1 md:space-x-3">
+                    <li class="inline-flex items-center">
+                        <a href="./index.html" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-700">Inicio</a>
+                    </li>
+                    <li aria-current="page">
+                        <div class="flex items-center">
+                            <span class="mx-2 text-gray-400">/</span>
+                            <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2">Transparencia</span>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!--Sección Hero-->
+    <section class="py-12 bg-gradient-to-r from-red-800 to-red-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">Portal transparencia</h1>
+            <p class="text-lg sm:text-xl md:text-2xl max-w-3xl mx-auto">Garantizamos el acceso a la información pública y fomentamos la probidad en nuestra gestión municipal</p>
+        </div>
+    </section>
+
+    <!-- Sección de Información Principal-->
+    <section class="py-12 sm:py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <!--Columna principal-->
+                <div class="lg:col-span-2">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-gray-800 mb-6">Ley de Transparencia</h2>
+                    <p class="text-gray-600 mb-6">De acuerdo con la Ley N° 20.285 sobre Transparencia de la Función Pública y de Acceso a la Información de la Administración del Estado, nuestra municipalidad pone a disposición de la ciudadanía información relevante sobre nuestra gestión, organización, presupuesto y más.</p>
+
+                    <div class="bg-blue-50 rounded-lg p-6 mb-8">
+                        <h3>¿Qué es la Transparencia Activa?</h3>
+                        <p class="text-gray-600 mb-4">La Transparencia Activa se refiere a la obligación de los órganos de la Administración del Estado de publicar y mantener actualizada en sus sitios web información relevante sobre su gestión, de manera proactiva, sin necesidad de que sea solicitada.</p>
+                        <p class="text-gray-600">Esta información debe ser completa, veraz, oportuna y accesible para todas las personas.</p>
+                    </div>
+
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-gray-50 rounded-lg p-6">
+                            <div class="w-12 h-12 rounded-full bg-red-500 text-white flex items-center justify-center mb-4">
+                                1
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Marco Legal</h3>
+                            <p class="text-gray-600">La Ley de Transparencia establece los principios y plazos para garantizar el acceso a la información pública.</p>
+                        </div>
+
+                        <div class="bg-gray-50 rounded-lg p-6">
+                            <div class="w-12 h-12 rounded-full bg-red-500 text-white flex items-center justify-center mb-4">
+                                2
+                            </div>
+                            <h3 class="text-xl font-bold text-gray-800 mb-2">Derechos Ciudadanos</h3>
+                            <p class="text-gray-600">Todas las personas tienen derecho a solicitar y recibir información de los actos de la administración municipal.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Barra lateral-->
+                <div class="space-y-6">
+                    <div class="bg-red-50 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Solicitud de información</h3>
+                        <p class="text-gray-600 mb-4">Si no encuentra la información que busca, puede presentar una solicitud formal de información.</p>
+                        <a href="#solicitud-informacion" class="inline-block bg-red-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 text-sm">
+                            Solicitar informacion
+                        </a>
+                    </div>
+
+                    <div class="bg-red-50 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Solicitud de información</h3>
+                        <p class="text-gray-600 mb-2">La municipalidad tiene un plazo máximo de <strong>20 días hábiles</strong> para responder a su solicitud de información.</p>
+                        <p class="text-gray-600">En casos excepcionales, este plazo puede extenderse por otros 10 días hábiles.</p>
+                    </div>
+
+                    <div class="bg-green-50 rounded-lg p-6">
+                        <h3 class="text-xl font-bold text-gray-800 mb-4">Portal de Transparencia</h3>
+                        <p class="text-gray-600 mb-4">Acceda a nuestro portal oficial de transparencia para consultar información detallada.</p>
+                        <a href="https://transparencia.municastro.cl/" class="inline-block bg-green-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded transition duration-300 text-sm">
+                            Portal de Transparencia
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--sección de preguntas frecuentes-->
+    <section class="py-12 sm:py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-8">Preguntas Frecuentes</h2>
+
+            <div class="max-w-3xl mx-auto space-y-6">
+                <div class="bg-white rounded-lg shadow-sm p-6">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">¿Qué información puedo solicitar?</h3>
+                    <p class="text-gray-600">Puede solicitar cualquier información que posea la municipalidad y que no esté sujeta a las excepciones establecidas en la Ley de Transparencia, como aquella que afecte la seguridad nacional, derechos de terceros o el debido cumplimiento de las funciones del órgano.</p>
+                </div>
+            
+
+                <div class="bg-white rounded-lg shadow-sm p-6">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">¿Cuánto tiempo tiene la municipalidad para responder?</h3>
+                    <p class="text-gray-600">La municipalidad tiene un plazo máximo de 20 días hábiles para responder a su solicitud. En casos excepcionales y debidamente fundados, este plazo puede extenderse por otros 10 días hábiles.</p>
+                </div>
+            
+                <div class="bg-white rounded-lg shadow-sm p-6">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">¿Qué pasa si no estoy conforme con la respuesta?</h3>
+                    <p class="text-gray-600">Si no está conforme con la respuesta recibida o si no se le ha respondido dentro del plazo establecido, puede presentar un reclamo ante el Consejo para la Transparencia.</p>
+                </div>
+            
+                <div class="bg-white rounded-lg shadow-sm p-6">
+                    <h3 class="text-lg font-bold text-gray-800 mb-2">¿Hay algún costo por solicitar información?</h3>
+                    <p class="text-gray-600">No, el acceso a la información pública es gratuito. Solo en casos excepcionales, cuando la reproducción de la información solicitada implique costos significativos, se podrá cobrar un monto que no exceda el valor de reproducción.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Sección de Solicitud de Información-->
+    <section id="solicitud-informacion" class="py-12 sm:py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-2xl sm:text-3xl font-bold text-center text-gray-800 mb-8">Solicitud de Información</h2>
+                <p class="text-center text-gray-600 mb-8">Complete el siguiente formulario para solicitar información que no encuentre publicada en nuestro portal</p>
+
+                <div class="bg-gray-50 rounded-lg shadow-sm p-6 sm:p-8">
+                    <form class="space-y-6">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label for="solicitante-nombre" class="block text-sm font-medium text-gray-700 mb-2">Nombre Completo *</label>
+                                <input type="text" id="solicitante-nombre" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" required>
+                            </div>
+                            <div>
+                                <label for="solicitante-rut" class="block text-sm font-medium text-gray-700 mb-2">RUT *</label>
+                                <input type="text" id="solicitante-rut" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" required>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                            <div>
+                                <label for="solicitante-nombre" class="block text-sm font-medium text-gray-700 mb-2">Correo electrónico *</label>
+                                <input type="text" id="solicitante-nombre" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" required>
+                            </div>
+                            <div>
+                                <label for="solicitante-rut" class="block text-sm font-medium text-gray-700 mb-2">Teléfono *</label>
+                                <input type="text" id="solicitante-rut" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" required>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label for="solicitante-informacion" class="block text-sm font-medium text-gray-700 mb-2">Información solicitada *</label>
+                            <textarea id="solicitud-informacion" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="Describa detalladamente la información que necesita" required></textarea>
+                        </div>
+
+                        <div>
+                            <label for="solicitante-fundamento" class="block text-sm font-medium text-gray-700 mb-2">Fundamento de la solicitud (opcional)</label>
+                            <textarea id="solicitud-fundamento" rows="5" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-red-500" placeholder="Describa detalladamente la información que necesita"></textarea>
+                        </div>
+
+                        <div class="bg-blue-50 p-4 rounded-lg">
+                            <p class="text-sm text-blue-700">De acuerdo con la Ley de Transparencia, la municipalidad <strong>tiene un plazo máximo de 20 días hábiles</strong> para responder a su solicitud. En casos excepcionales, este plazo puede extenderse por otros 10 días hábiles.</p>
+                        </div>
+
+                        <button type="submit" class="w-full bg-red-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                            Enviar Solicitud
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <a href="./index.html"><img src="./assets/img/general/Blanco.png" alt="logoBlanco" class="h-16 mb-4"></a>
+                    <p class="mb-4">Trabajando por el desarrollo y bienestar de nuestra comunidad.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/IlustreMunicipalidaddeCastro/" class="hover:text-blue-200 transition duration-300">
+                            Facebook
+                        </a>
+                        <a href="https://www.instagram.com/ilustremunicipalidaddecastro/" class="hover:text-blue-200 transition duration-300">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-8">Enlaces Rapidos</h3>
+                    <ul class="space-y-3">
+                        <li><a href="./index.html" class="text-gray-300 hover:text-white transition duration-300">Inicio</a></li>
+                        <li><a href="./nosotros.html" class="text-gray-300 hover:text-white transition duration-300">Nosotros</a></li>
+                        <li><a href="./historia.html" class="text-gray-300 hover:text-white transition duration-300">Historia</a></li>
+                        <li><a href="./noticias.html" class="text-gray-300 hover:text-white transition duration-300">Blog de Noticias</a></li>
+                        <li><a href="./transparencia.html" class="text-gray-300 hover:text-white transition duration-300">Transparencia</a></li>
+                        <li><a href="./contacto.html" class="text-gray-300 hover:text-white transition duration-300">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Contacto</h3>
+                    <ul class="space-y-3 text-white">
+                        <li class="flex items-start"><span>Plaza de Armas S/N, Castro, Chiloé</span></li>
+                        <li class="flex items-start"><span>+56 (65) 253 8000</span></li>
+                        <li class="flex items-start"><span>rrpp@municipalidadcastro.cl</span></li>
+                        <li class="flex items-start"><span>Lunes a Viernes: 8:30 - 14:00 hrs</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white mt-12 pt-6 text-center text-white">
+                <p>&copy; 2025 Municipalidad de Castro - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "name": "proyecto-html-tailwind4.1",
+  "version": "1.1.0",
+  "description": "Proyecto \"Blog\" Creado con Html y Tailwindcss4.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "npx @tailwindcss/cli -i ./input/input.css -o ./public/assets/css/style.css --watch"
+  },
+  "author": "Elioth Vargas",
+  "license": "ISC",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13",
+    "tailwindcss": "^4.1.13"
+  }
+}

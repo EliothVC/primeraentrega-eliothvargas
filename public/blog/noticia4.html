@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Shortcut Icon" href="../assets/img/general/escudo.ico">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Castro conmemora 182 años de la gesta de la Goleta Ancud</title>
+</head>
+<body>
+    <!-- encabezado superior -->
+    <div class="bg-blue-800 text-white py-2 hidden md:block">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
+                <div class="flex space-x-4">
+                    <div class="flex items-center">
+                        <span class="text-sm">+56 (65) 253 8000</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-sm">rrpp@municipalidadcastro.cl</span>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/IlustreMunicipalidaddeCastro/" class="hover:text-blue-200 transition duration-300">
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/ilustremunicipalidaddecastro/" class="hover:text-blue-200 transition duration-300">
+                        Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--encabezado principal -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="../index.html">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center mr-3">
+                            <img src="../assets/img/general/escudo.png" alt="logo" class="w-10 h-10 object-contain">
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold text-gray-800">Municipalidad de</h1>
+                            <h2 class="text-xl font-bold text-red-500">Castro</h2>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Menú escritorio -->
+                <nav class="hidden md:flex space-x-6">
+                        <a href="../index.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Inicio</a>
+                        <a href="../nosotros.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Nosotros</a>
+                        <a href="../historia.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Historia</a>
+                        <a href="../noticias.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Blog</a>
+                        <a href="../transparencia.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Transparencia</a>
+                        <a href="../contacto.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Contacto</a>
+                </nav>
+
+                <!-- Botón Hamburguesa -->
+                <button id="menu-toggle" class="md:hidden text-gray-700 focus:outline-none">
+                    Menú
+                </button>
+            </div>
+            
+            <!-- Menú Móvil -->
+            <nav id="mobile-menu" class="mobile-menu hidden md:hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="../index.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Inicio</a>
+                    <a href="../nosotros.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Nosotros</a>
+                    <a href="../historia.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Historia</a>
+                    <a href="../noticias.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Blog</a>
+                    <a href="../transparencia.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Transparencia</a>
+                    <a href="../contacto.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- breadcrumb -->
+    <div class="bg-gray-100 py-3">
+        <div class="container mx-auto px-4">
+            <nav class="flex" aria-label="breadcrumb">
+                <ol class="inline-flex items-center space-x-1 md:space-x-3">
+                    <li class="inline-flex items-center">
+                        <a href="../index.html" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-700">Inicio</a>
+                    </li>
+                    <li aria-current="page">
+                        <div class="flex items-center">
+                            <span class="mx-2 text-gray-400">/</span>
+                            <a href="../noticias.html" class="ml-1 inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-700">Noticias</a>
+                        </div>
+                    </li>
+                    <li aria-current="page">
+                        <div class="flex items-center">
+                            <span class="mx-2 text-gray-400">/</span>
+                            <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2">Invitan a estudiantes de Castro</span>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Contenido principal de la noticia-->
+    <main class="container mx-auto px-4 py-8">
+        <article class="max-w-4xl mx-auto">
+            <!--Encabezado de la noticia-->
+            <header class="mb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Invitan a estudiantes de Castro a participar en concurso contra la violencia escolar</h1>
+                <div class="flex flex-col md:flex-row md:items-center text-gray-600 mb-4">
+                    <span class="mr-4 mb-2 mb:mb-0">Publicado el 16 de septiembre, 2025 - 3 min de lectura</span>
+                </div>
+                <div class="w-full bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                    <img src="../assets/img/articles/Noticia4.jpg" alt="Noticia4" class="w-full h-full object-cover">
+                </div>
+            </header>
+
+            <!--Contenido de la noticia-->
+            <div class="prose max-w-none">
+                <h2 class="text-2xl font-bold text-gray-800 mt-8 mb-4">Se trata de una iniciativa de la Municipalidad de Castro y Slep Chiloé dirigida a alumnos de 5° a 8° básico de establecimientos públicos y particulares subvencionados.</h2>
+                <p class="mb-4">La Dirección de Seguridad Pública de la Municipalidad de Castro, en colaboración con el Servicio Local de Educación Pública (SLEP) Chiloé, lanzaron el concurso “Resta Violencia, Suma Buen Trato”.</p>
+                <p class="mb-4">La iniciativa busca que los escolares promuevan el buen trato y la disminución de la violencia en sus distintas manifestaciones.</p>
+                <p class="mb-4">El certamen invita a estudiantes de 5° a 8° básico a crear un afiche con mensajes que fomenten la buena convivencia entre compañeros, hacia los profesores y en las relaciones de noviazgo.</p>
+                <p class="mb-4">Durante el lanzamiento, la directora de Seguridad Pública, Adriana Faba, destacó la importancia de que se genere una “instancia de diálogo” en las comunidades educativas. “Para nosotros es importante prevenir y creemos que una de estas formas es invitando a los estudiantes, de 5° a 8° básico a realizar un afiche colectivo, la ideas es que colaboremos en conjunto”, precisó.</p>
+                <p class="mb-4">En tanto, el director del SLEP Chiloé, Pablo Baeza, se refirió a la colaboración como un paso crucial para enfrentar los desafíos en las escuelas. “sabemos que el municipio ha estado trabajando con esta idea desde hace tiempo, por lo que estamos muy contentos que nos hayan considerado, entendiendo el convenio que tenemos como socios estratégicos en materia de educación”, afirmó.</p>
+                <p class="mb-4">Las bases del concurso, que se desarrollará del 13 al 20 de octubre, se encuentran disponibles en el sitio web de la Municipalidad de Castro.</p>
+                <p class="mb-4">Para más información, los interesados pueden acercarse a la Oficina de Seguridad Pública, ubicada en Thompson 297.</p>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <a href="../index.html"><img src="../assets/img/general/Blanco.png" alt="logoBlanco" class="h-16 mb-4"></a>
+                    <p class="mb-4">Trabajando por el desarrollo y bienestar de nuestra comunidad.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/IlustreMunicipalidaddeCastro/" class="hover:text-blue-200 transition duration-300">
+                            Facebook
+                        </a>
+                        <a href="https://www.instagram.com/ilustremunicipalidaddecastro/" class="hover:text-blue-200 transition duration-300">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-8">Enlaces Rapidos</h3>
+                    <ul class="space-y-3">
+                        <li><a href="../index.html" class="text-gray-300 hover:text-white transition duration-300">Inicio</a></li>
+                        <li><a href="../nosotros.html" class="text-gray-300 hover:text-white transition duration-300">Nosotros</a></li>
+                        <li><a href="../historia.html" class="text-gray-300 hover:text-white transition duration-300">Historia</a></li>
+                        <li><a href="../noticias.html" class="text-gray-300 hover:text-white transition duration-300">Blog de Noticias</a></li>
+                        <li><a href="../transparencia.html" class="text-gray-300 hover:text-white transition duration-300">Transparencia</a></li>
+                        <li><a href="../contacto.html" class="text-gray-300 hover:text-white transition duration-300">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Contacto</h3>
+                    <ul class="space-y-3 text-white">
+                        <li class="flex items-start"><span>Plaza de Armas S/N, Castro, Chiloé</span></li>
+                        <li class="flex items-start"><span>+56 (65) 253 8000</span></li>
+                        <li class="flex items-start"><span>rrpp@municipalidadcastro.cl</span></li>
+                        <li class="flex items-start"><span>Lunes a Viernes: 8:30 - 14:00 hrs</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white mt-12 pt-6 text-center text-white">
+                <p>&copy; 2025 Municipalidad de Castro - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

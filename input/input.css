@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@layer base {
+    html {
+        @apply scroll-smooth;
+        scroll-padding-top: 80px;
+    }
+}
+
+@layer components {
+    .a-rapidos {
+        @apply bg-white rounded-lg shadow-md p-6 flex flex-col items-center justify-center text-center hover:shadow-lg transition duration-300;
+    }
+}

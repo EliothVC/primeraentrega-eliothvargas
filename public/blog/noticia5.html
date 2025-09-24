@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Shortcut Icon" href="../assets/img/general/escudo.ico">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <title>Hilando memoria y comunidad</title>
+</head>
+<body>
+    <!-- encabezado superior -->
+    <div class="bg-blue-800 text-white py-2 hidden md:block">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-2 md:space-y-0">
+                <div class="flex space-x-4">
+                    <div class="flex items-center">
+                        <span class="text-sm">+56 (65) 253 8000</span>
+                    </div>
+                    <div class="flex items-center">
+                        <span class="text-sm">rrpp@municipalidadcastro.cl</span>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <a href="https://www.facebook.com/IlustreMunicipalidaddeCastro/" class="hover:text-blue-200 transition duration-300">
+                        Facebook
+                    </a>
+                    <a href="https://www.instagram.com/ilustremunicipalidaddecastro/" class="hover:text-blue-200 transition duration-300">
+                        Instagram
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--encabezado principal -->
+    <header class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <!-- Logo -->
+                <a href="../index.html">
+                    <div class="flex items-center">
+                        <div class="w-12 h-12 rounded-full bg-red-500 flex items-center justify-center mr-3">
+                            <img src="../assets/img/general/escudo.png" alt="logo" class="w-10 h-10 object-contain">
+                        </div>
+                        <div>
+                            <h1 class="text-xl font-bold text-gray-800">Municipalidad de</h1>
+                            <h2 class="text-xl font-bold text-red-500">Castro</h2>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Menú escritorio -->
+                <nav class="hidden md:flex space-x-6">
+                        <a href="../index.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Inicio</a>
+                        <a href="../nosotros.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Nosotros</a>
+                        <a href="../historia.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Historia</a>
+                        <a href="../noticias.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Blog</a>
+                        <a href="../transparencia.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Transparencia</a>
+                        <a href="../contacto.html" class="text-gray-700 font-medium hover:text-red-500 transition duration-300">Contacto</a>
+                </nav>
+
+                <!-- Botón Hamburguesa -->
+                <button id="menu-toggle" class="md:hidden text-gray-700 focus:outline-none">
+                    Menú
+                </button>
+            </div>
+            
+            <!-- Menú Móvil -->
+            <nav id="mobile-menu" class="mobile-menu hidden md:hidden mt-4 pb-4">
+                <div class="flex flex-col space-y-4">
+                    <a href="../index.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Inicio</a>
+                    <a href="../nosotros.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Nosotros</a>
+                    <a href="../historia.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Historia</a>
+                    <a href="../noticias.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Blog</a>
+                    <a href="../transparencia.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Transparencia</a>
+                    <a href="../contacto.html" class="text-gray-700 font-medium hover:text-red-500 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- breadcrumb -->
+    <div class="bg-gray-100 py-3">
+        <div class="container mx-auto px-4">
+            <nav class="flex" aria-label="breadcrumb">
+                <ol class="inline-flex items-center space-x-1 md:space-x-3">
+                    <li class="inline-flex items-center">
+                        <a href="../index.html" class="inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-700">Inicio</a>
+                    </li>
+                    <li aria-current="page">
+                        <div class="flex items-center">
+                            <span class="mx-2 text-gray-400">/</span>
+                            <a href="../noticias.html" class="ml-1 inline-flex items-center text-sm font-medium text-gray-700 hover:text-blue-700">Noticias</a>
+                        </div>
+                    </li>
+                    <li aria-current="page">
+                        <div class="flex items-center">
+                            <span class="mx-2 text-gray-400">/</span>
+                            <span class="ml-1 text-sm font-medium text-gray-500 md:ml-2">Hilando memoria y comunidad</span>
+                        </div>
+                    </li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Contenido principal de la noticia-->
+    <main class="container mx-auto px-4 py-8">
+        <article class="max-w-4xl mx-auto">
+            <!--Encabezado de la noticia-->
+            <header class="mb-8">
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">Hilando memoria y comunidad: Inauguran exposición de arpilleras del barrio Tejiendo Sueños en Castro</h1>
+                <div class="flex flex-col md:flex-row md:items-center text-gray-600 mb-4">
+                    <span class="mr-4 mb-2 mb:mb-0">Publicado el 09 de septiembre, 2025 - 7 min de lectura</span>
+                </div>
+                <div class="w-full bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                    <img src="../assets/img/articles/Noticia5.jpeg" alt="Noticia5" class="w-full h-full object-cover">
+                </div>
+            </header>
+
+            <!--Contenido de la noticia-->
+            <div class="prose max-w-none">
+                <h2 class="text-2xl font-bold text-gray-800 mt-8 mb-4"></h2>
+                <p class="mb-4"><strong>La muestra “Memorias hiladas, heredan comunidad” reúne obras creadas por vecinas de los sectores La Esperanza, Yungay y Camilo Henríquez, transformando recuerdos y dolores en arte y esperanza colectiva.</strong></p>
+                <p class="mb-4">Con la asistencia de participantes y sus familiares, estudiantes, autoridades y académicos, se inauguró en el hall central de la Universidad de Los Lagos, sede Chiloé, la exposición “Memorias hiladas, heredan comunidad”, que exhibe las arpilleras confeccionadas por mujeres del barrio Tejiendo Sueños de Castro.</p>
+                <p class="mb-4">La iniciativa marca el cierre del taller “Puntadas de Identidad”, realizado en el marco del programa Quiero mi Barrio durante los meses de junio a agosto del 2025, y contó con la colaboración de la carrera de Psicología de la Universidad de Los Lagos, y la Politécnica de Valencia y su programa ADSIDEO.</p>
+                <p class="mb-4">El Taller de arpilleras se realizó como continuidad de taller iniciado por la carrera de Psicología de la ULagos durante el año 2024 con mujeres del sector de Camilo Henríquez.</p>
+                <p class="mb-4">Las obras presentadas, “Desde los recuerdos nos volvemos a levantar”, confeccionados durante el primer taller, y “Puntadas de Identidad”, en el segundo, retratan la memoria, la identidad y la unión comunitaria, incluyendo hitos significativos como el incendio que afectó en 2021 a las poblaciones Camilo Henríquez y Yungay.</p>
+                <p class="mb-4">La vecina María Eugenia Velázquez expresó que, con el incendio, “o nos perdíamos o nos reencontrábamos”, y que este tipo de espacio, “nos ayudó a unirnos y a crear algo hermoso juntas”.</p>
+                <p class="mb-4">Por su parte, Carmen Antiñanco, presidenta de la JJVV Nueva Aurora, agregó que el taller, “fue una terapia que nos ayudó a sanar y a mantener el optimismo a pesar de lo vivido”.</p>
+                <p class="mb-4">Desde el municipio, Arístides Cárdenas, jefe de gabinete, valoró la iniciativa, remarcando la labor del Quiero mi Barrio, cómo agente para propiciar este tipo de instancias comunitarias, indicando que “es un programa muy potente, que debemos mantener y fortalecer porque trabaja en profundidad con la comunidad”.</p>
+                <p class="mb-4">Cabe destacar que, el taller “Puntadas con identidad” es una de las dos iniciativas regionales seleccionadas, de un total de 16 a nivel país que competirán del Concurso Nacional de Buenas Prácticas Barriales del MINVU, en la categoría Cuidados y Género.</p>
+                <p class="mb-4">En esa misma línea, Pamela Burgos, Encargada Social del Programa Recuperación de Barrios en Los Lagos, valoró este tipo de acciones y su vinculación con otras instituciones, instancia que “buscó trabajar elementos de la identidad desde el contexto de desastre con perspectiva de género”.</p>
+                <p class="mb-4">La ceremonia concluyó con la exhibición de un video que recopiló momentos del taller y la entrega de certificados a las participantes, en reconocimiento a su compromiso y dedicación.</p>
+            </div>
+        </article>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-green-600 text-white pt-12 pb-6">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div>
+                    <a href="../index.html"><img src="../assets/img/general/Blanco.png" alt="logoBlanco" class="h-16 mb-4"></a>
+                    <p class="mb-4">Trabajando por el desarrollo y bienestar de nuestra comunidad.</p>
+                    <div class="flex space-x-4">
+                        <a href="https://www.facebook.com/IlustreMunicipalidaddeCastro/" class="hover:text-blue-200 transition duration-300">
+                            Facebook
+                        </a>
+                        <a href="https://www.instagram.com/ilustremunicipalidaddecastro/" class="hover:text-blue-200 transition duration-300">
+                            Instagram
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-8">Enlaces Rapidos</h3>
+                    <ul class="space-y-3">
+                        <li><a href="../index.html" class="text-gray-300 hover:text-white transition duration-300">Inicio</a></li>
+                        <li><a href="../nosotros.html" class="text-gray-300 hover:text-white transition duration-300">Nosotros</a></li>
+                        <li><a href="../historia.html" class="text-gray-300 hover:text-white transition duration-300">Historia</a></li>
+                        <li><a href="../noticias.html" class="text-gray-300 hover:text-white transition duration-300">Blog de Noticias</a></li>
+                        <li><a href="../transparencia.html" class="text-gray-300 hover:text-white transition duration-300">Transparencia</a></li>
+                        <li><a href="../contacto.html" class="text-gray-300 hover:text-white transition duration-300">Contacto</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xl font-bold mb-6">Contacto</h3>
+                    <ul class="space-y-3 text-white">
+                        <li class="flex items-start"><span>Plaza de Armas S/N, Castro, Chiloé</span></li>
+                        <li class="flex items-start"><span>+56 (65) 253 8000</span></li>
+                        <li class="flex items-start"><span>rrpp@municipalidadcastro.cl</span></li>
+                        <li class="flex items-start"><span>Lunes a Viernes: 8:30 - 14:00 hrs</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-white mt-12 pt-6 text-center text-white">
+                <p>&copy; 2025 Municipalidad de Castro - Todos los derechos reservados</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
