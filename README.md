@@ -12,19 +12,30 @@ Este es mi proyecto creado con HTML y tailwindcss.
 
 ## estructura de carpetas
 
-input: contiene el archivo input.css
+-input: contiene el archivo input.css
 
-public: contiene el archivo de salida de tailwindcss
+-public: contiene el archivo de salida de tailwindcss
+
 -assets: contiene los archivos de imagenes y css
+
 --css: contiene el archivo de css en el cual se le aplica tailwindcss
+
 --img: contiene las imagenes del proyecto
+
 -blog: contiene el archivo de blog
---noticias: contiene el archivo de noticias
--contacto: contiene el archivo de contacto
--historia: contiene el archivo de historia
--index: contiene el archivo de index
+
 -noticias: contiene el archivo de noticias
+
+-contacto: contiene el archivo de contacto
+
+-historia: contiene el archivo de historia
+
+-index: contiene el archivo de index
+
+-noticias: contiene el archivo de noticias
+
 -nosotros: contiene el archivo de nosotros
+
 -transparencia: contiene el archivo de transparencia
 
 ## verificar si tenemos node.js
@@ -45,37 +56,18 @@ npm install tailwindcss @tailwindcss/cli
 
 ## importar tailwindcss en package.json
 
-{
-  "name": "proyecto-html-tailwind4.1",
-  "version": "1.1.0",
-  "description": "Proyecto \"Blog\" Creado con Html y Tailwindcss4.1",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    ***"watch": "npx @tailwindcss/cli -i ./input/input.css -o ./public/assets/css/style.css --watch"***
-  },
-  "author": "Elioth Vargas",
-  "license": "ISC",
-  "dependencies": {
-    "@tailwindcss/cli": "^4.1.13",
-    "tailwindcss": "^4.1.13"
-  }
-}
+abajo de "scripts"
+
+-***"watch": "npx @tailwindcss/cli -i ./input/input.css -o ./public/assets/css/style.css --watch"***
+
 
 ## Verificar si tenemos tailwindcss
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css"> ***llamamos al archivo que tiene tailwindcss***
-    <title>Document</title>
-</head>
-<body>
-    <h1 class="text-3xl text-red-500">hola mundo!</h1> ***aplicamos tailwindcss a nuestro html***
-</body>
-</html>
+en el archivo index.html
+en el head
+<link rel="stylesheet" href="assets/css/style.css"> ***llamamos al archivo que tiene tailwindcss***
+
+<h1 class="text-3xl text-red-500">hola mundo!</h1> ***aplicamos tailwindcss a nuestro html***
 
 # Responisve design
 
