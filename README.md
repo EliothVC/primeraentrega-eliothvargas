@@ -63,11 +63,11 @@ abajo de "scripts"
 
 ## Verificar si tenemos tailwindcss
 
-en el archivo index.html
-en el head
-<link rel="stylesheet" href="assets/css/style.css"> ***llamamos al archivo que tiene tailwindcss***
+- en el archivo index.html en el head
+< link rel="stylesheet" href="assets/css/style.css"> ***llamamos al archivo que tiene tailwindcss***
 
-<h1 class="text-3xl text-red-500">hola mundo!</h1> ***aplicamos tailwindcss a nuestro html***
+- entre el body
+< h1 class="text-3xl text-red-500">hola mundo!</ h1 > ***aplicamos tailwindcss a nuestro html***
 
 # Responisve design
 
