@@ -15,17 +15,17 @@ Este es mi proyecto creado con HTML y tailwindcss.
 input: contiene el archivo input.css
 
 public: contiene el archivo de salida de tailwindcss
-    -assets: contiene los archivos de imagenes y css
-        --css: contiene el archivo de css en el cual se le aplica tailwindcss
-        --img: contiene las imagenes del proyecto
-    -blog: contiene el archivo de blog
-        --noticias: contiene el archivo de noticias
-    -contacto: contiene el archivo de contacto
-    -historia: contiene el archivo de historia
-    -index: contiene el archivo de index
-    -noticias: contiene el archivo de noticias
-    -nosotros: contiene el archivo de nosotros
-    -transparencia: contiene el archivo de transparencia
+-assets: contiene los archivos de imagenes y css
+--css: contiene el archivo de css en el cual se le aplica tailwindcss
+--img: contiene las imagenes del proyecto
+-blog: contiene el archivo de blog
+--noticias: contiene el archivo de noticias
+-contacto: contiene el archivo de contacto
+-historia: contiene el archivo de historia
+-index: contiene el archivo de index
+-noticias: contiene el archivo de noticias
+-nosotros: contiene el archivo de nosotros
+-transparencia: contiene el archivo de transparencia
 
 ## verificar si tenemos node.js
 
